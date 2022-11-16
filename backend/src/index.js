@@ -15,6 +15,6 @@ app.use(routes);
  * documentation http://knexjs.org/
  */
 
-
+console.log("servidor iniciado");
 
 app.listen(process.env.PORT || 3333);
