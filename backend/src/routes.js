@@ -11,7 +11,7 @@ const routes = express.Router();
 
 routes.post('/sessions', SessionController.create);
 
-
+routes.get('/', (req,res)=>{res.send("iniciando server")});
 routes.get('/ongs', OngController.index);
 routes.post('/ongs', OngController.create);
 
